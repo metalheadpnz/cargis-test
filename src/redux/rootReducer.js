@@ -1,8 +1,8 @@
 import {combineReducers} from "redux";
-import {fetchedRouts} from "./fetchedRouts";
+import {routsReducer} from "./routsReducer";
 
 const rootReducer = combineReducers({
-    fetchedRouts: fetchedRouts
+    routs: routsReducer
 })
 
 export default rootReducer

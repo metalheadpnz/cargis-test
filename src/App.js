@@ -1,6 +1,6 @@
 import React from 'react'
 import {Header} from "./components/Header";
-import {RoutsList} from "./components/RoutsList";
+import {OrdersList} from "./components/OrdersList";
 import {Map} from "./components/Map";
 
 function App() {
@@ -9,13 +9,9 @@ function App() {
             <Header/>
 
             <div className={'mainContent'}>
-                <RoutsList/>
+                <OrdersList/>
                 <Map/>
             </div>
-
-            {/*<RoutsList/>*/}
-            {/*<Map/>*/}
-
         </div>
     );
 }
