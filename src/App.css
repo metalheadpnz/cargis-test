@@ -1,5 +1,6 @@
 .appWrapper {
     max-width: 1280px;
+
     /*position: absolute;*/
     /*top: 0;*/
     /*right: 0;*/
@@ -22,6 +23,9 @@
 .RoutsListWrapper {
     background-color: Lightgrey;
     width: 440px;
+    max-height: 500px;
+    display: inline-block;
+    overflow-x: hidden;
 }
 
 .mapWrapper {

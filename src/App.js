@@ -1,7 +1,7 @@
 import React from 'react'
 import {Header} from "./components/Header";
 import {OrdersList} from "./components/OrdersList";
-import {Map} from "./components/Map";
+import Map from "./components/Map";
 
 function App() {
     return (
